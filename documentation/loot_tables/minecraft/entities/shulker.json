@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:shulker_shell",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:shulker_shell"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.5,
+          "looting_multiplier": 0.0625,
+          "condition": "minecraft:random_chance_with_looting"
+        }
+      ]
+    },
+    {
+      "name": "bountifulbaubles_shulker",
+      "entries": [
+        {
+          "entryName": "bountifulbaubles:shulkerHeart",
+          "weight": 1,
+          "quality": 1,
+          "conditions": [
+            {
+              "inverse": false,
+              "condition": "minecraft:killed_by_player"
+            }
+          ],
+          "type": "item",
+          "name": "bountifulbaubles:trinketshulkerheart"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.1,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    }
+  ]
+}

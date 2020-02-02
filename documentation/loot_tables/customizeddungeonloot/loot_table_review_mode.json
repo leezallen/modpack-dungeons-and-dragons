@@ -1,0 +1,571 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:diamond_sword",
+          "weight": 500,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.1,
+                "max": 0.3
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{ench:[{lvl:5,id:20},{lvl:3,id:22},{lvl:3,id:19},{lvl:5,id:7},{lvl:3,id:17}],Lore:[\"I feel the darkness...\"],display:{Name:\"Herobrine\u0027s Sword\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:diamond_sword"
+        },
+        {
+          "entryName": "minecraft:iron_sword",
+          "weight": 500,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.1,
+                "max": 0.3
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{ench:[{lvl:5,id:16},{lvl:3,id:34}],display:{Name:\"Rex\u0027s Sword\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:iron_sword"
+        },
+        {
+          "entryName": "minecraft:bow",
+          "weight": 500,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.1,
+                "max": 0.8
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{ench:[{lvl:3,id:48},{lvl:1,id:51}],display:{Name:\"Archer\u0027s Bow\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:bow"
+        },
+        {
+          "entryName": "minecraft:iron_boots",
+          "weight": 500,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.01,
+                "max": 0.6
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{ench:[{lvl:3,id:9}],display:{Name:\"Frost Walker Boots\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:iron_boots"
+        },
+        {
+          "entryName": "minecraft:leather_boots",
+          "weight": 500,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.1,
+                "max": 0.6
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "modifiers": [
+                {
+                  "name": "speed",
+                  "attribute": "generic.movementSpeed",
+                  "operation": "addition",
+                  "amount": 1.0,
+                  "slot": "feet"
+                }
+              ],
+              "function": "minecraft:set_attributes"
+            },
+            {
+              "tag": "{display:{Name:\"Flash\u0027s Boots\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:leather_boots"
+        },
+        {
+          "entryName": "minecraft:fishing_rod",
+          "weight": 500,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.1,
+                "max": 0.6
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{ench:[{lvl:5,id:61},{lvl:3,id:62},{lvl:1,id:70}],display:{Name:\"Holy Fishing Rod\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:fishing_rod"
+        },
+        {
+          "entryName": "minecraft:flint_and_steel",
+          "weight": 500,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ench:[{lvl:10,id:34}],display:{Name:\"Infinite Fire\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:flint_and_steel"
+        },
+        {
+          "entryName": "minecraft:diamond",
+          "weight": 100,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ench:[{lvl:1,id:71}],display:{Name:\"Blood Diamond\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:diamond"
+        },
+        {
+          "entryName": "minecraft:diamond_pickaxe",
+          "weight": 500,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.1,
+                "max": 0.5
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{ench:[{lvl:3,id:70},{lvl:1,id:35},{lvl:5,id:32}],display:{Name:\"Builder\u0027s Pickaxe\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:diamond_pickaxe"
+        },
+        {
+          "entryName": "minecraft:elytra",
+          "weight": 500,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ench:[{lvl:1,id:70}],display:{Name:\"Infused Elytra\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:elytra"
+        },
+        {
+          "entryName": "minecraft:pumpkin",
+          "weight": 500,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "amount": 20.0,
+                  "slot": "head"
+                }
+              ],
+              "function": "minecraft:set_attributes"
+            },
+            {
+              "tag": "{ench:[{lvl:1,id:10},{lvl:5,id:7}],display:{Name:\"Evil Pumpkin\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:pumpkin"
+        },
+        {
+          "entryName": "minecraft:iron_axe",
+          "weight": 500,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "damage": {
+                "min": 0.01,
+                "max": 0.1
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{ench:[{lvl:10,id:19}],display:{Name:\"Hammer\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:iron_axe"
+        },
+        {
+          "entryName": "minecraft:stick",
+          "weight": 500,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{ench:[{lvl:5,id:19}],display:{Name:\"Knock Out Stick\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:stick"
+        },
+        {
+          "entryName": "minecraft:emerald",
+          "weight": 500,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ench:[{lvl:1,id:71}],display:{Name:\"Blood Emerald\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:emerald"
+        },
+        {
+          "entryName": "minecraft:spawn_egg",
+          "weight": 500,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{display:{Name:\"Empty Spawn Egg\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:spawn_egg"
+        },
+        {
+          "entryName": "minecraft:golden_apple",
+          "weight": 500,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "modifiers": [
+                {
+                  "name": "health",
+                  "attribute": "generic.maxHealth",
+                  "operation": "addition",
+                  "amount": 5.0,
+                  "slot": [
+                    "mainhand",
+                    "offhand"
+                  ]
+                }
+              ],
+              "function": "minecraft:set_attributes"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{display:{Name:\"Notch\u0027s Apple\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "entryName": "minecraft:skull",
+          "weight": 500,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{display:{Name:\"Steve\u0027s Head\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:skull"
+        },
+        {
+          "entryName": "minecraft:golden_sword",
+          "weight": 500,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.2,
+                "max": 0.8
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{ench:[{lvl:3,id:21}],display:{Name:\"Thief\u0027s Sword\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:golden_sword"
+        },
+        {
+          "entryName": "minecraft:enchanted_book",
+          "weight": 500,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{display:{Name:\"The Curse of Herobrine\"},StoredEnchantments:[{lvl:1,id:10},{lvl:1,id:71}]}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:enchanted_book"
+        },
+        {
+          "entryName": "minecraft:written_book",
+          "weight": 500,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "modifiers": [
+                {
+                  "name": "luck",
+                  "attribute": "generic.luck",
+                  "operation": "addition",
+                  "amount": 5.0,
+                  "slot": [
+                    "mainhand",
+                    "offhand"
+                  ]
+                }
+              ],
+              "function": "minecraft:set_attributes"
+            },
+            {
+              "tag": "{display:{Name:\"Notch\u0027s Diary\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:written_book"
+        },
+        {
+          "entryName": "minecraft:name_tag",
+          "weight": 500,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{display:{Name:\"Bella\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:name_tag"
+        },
+        {
+          "entryName": "minecraft:golden_horse_armor",
+          "weight": 500,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ench:[{lvl:1,id:0}],display:{Name:\"Royal Horse Armor\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:golden_horse_armor"
+        },
+        {
+          "entryName": "minecraft:iron_helmet",
+          "weight": 500,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.8
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{ench:[{lvl:1,id:6},{lvl:1,id:8}],display:{Name:\"Diving Helmet\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:iron_helmet"
+        },
+        {
+          "entryName": "minecraft:planks",
+          "weight": 500,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 30.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{display:{Name:\"High Quality Wood\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:planks"
+        },
+        {
+          "entryName": "minecraft:totem_of_undying",
+          "weight": 500,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{display:{Name:\"Death Relict\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:totem_of_undying"
+        },
+        {
+          "entryName": "minecraft:iron_chestplate",
+          "weight": 500,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.8
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{ench:[{lvl:5,id:0}],display:{Name:\"Stable Chestplate\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:iron_chestplate"
+        },
+        {
+          "entryName": "minecraft:mob_spawner",
+          "weight": 500,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{display:{Name:\"old spawner\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:mob_spawner"
+        }
+      ],
+      "rolls": {
+        "min": 3.0,
+        "max": 5.0
+      }
+    }
+  ]
+}

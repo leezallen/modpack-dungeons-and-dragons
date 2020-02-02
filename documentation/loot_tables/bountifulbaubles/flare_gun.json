@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "name": "pool_flare_gun",
+      "entries": [
+        {
+          "entryName": "bountifulbaubles:flaregun",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "bountifulbaubles:flaregun"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "pool_flares",
+      "entries": [
+        {
+          "entryName": "bountifulbaubles:flare_red",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 25.0,
+                "max": 48.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "bountifulbaubles:flare_red"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}
